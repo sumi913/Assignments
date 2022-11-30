@@ -15,7 +15,6 @@
 
 
 import random
-
 four_digit = str(random.randint(1000,9999))
 digit_list = []
 cow = 0
@@ -39,6 +38,5 @@ while cow < 4 and exit !="x":
         print(cow, "cow(s)", bull, "bull(s)")
     else:
         exit = "x"
-
 print("Total number of attempts",count)
 print(digit_list, guess_list)

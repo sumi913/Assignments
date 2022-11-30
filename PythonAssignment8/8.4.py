@@ -1,18 +1,8 @@
-# string=input("Enter the coordinate without braket in following format   x1,y1 x2,y2 x3,y3 ......  xn,yn :")
-# coordinates=string.split(" ")
-# list_of_coordinates=[]
-# for x in coordinates:
-#     list_of_coordinates.append(coordinates.split(","))
-# intlist=[eval(i) for i in list_of_coordinates]
-# lowest=(min(min(list_of_coordinates)))
-# updated_coordinates=[]
-# if int(lowest)<0:
-#     to_add=0-int(lowest)
-#     for x in range(0,len(list_of_coordinates)):
-#         updated_coordinates.append(intlist[x]+to_add)
-# else:
-#     print("There is no negative")
-#     print(list_of_coordinates)
+# This is problem to convert all the negative coordinates to a positive coordinates;
+# The agenda is to get all the coordinates in 0 or positive values keeping the relative distance same;
+# We can add or delete any number from the coordinates ; however graph should not be changed;
+# Input: [(1,-2), (-2, 4), (-1,-1),(-8, -3), (0, 4), (10,-3)]
+# Output : [(9,6), (6, 12), (7,7),(0, 5), (8, 12), (18,5)]
 
 list_x=[]
 list_y=[]
