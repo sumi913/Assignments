@@ -6,7 +6,8 @@ def square(list):
         ret.append(i ** 2)
     return ret
 list=[]
-n=int(input("Enter the number of elements :"))
+n=int(input("Enter the number of elements in list:"))
+print("Enter the elements")
 for i in range(0,n):
     ele = int(input())
     list.append(ele)

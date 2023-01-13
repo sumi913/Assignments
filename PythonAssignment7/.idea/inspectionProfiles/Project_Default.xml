@@ -1,0 +1,41 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="3">
+            <item index="0" class="java.lang.String" itemvalue="value" />
+            <item index="1" class="java.lang.String" itemvalue="wfd-invisible" />
+            <item index="2" class="java.lang.String" itemvalue="href" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="django.core.get_asgi_application" />
+          <option value="online_course_system.teacher.views.views.addcourse" />
+          <option value="online_course_system.teacher.views.views.updatecourse" />
+          <option value="online_course_system.teacher.views.views.deletecourse" />
+          <option value="online_course_system.course.models.StudentInfo" />
+          <option value="online_course_system.course.admin.site.register" />
+          <option value="online_course_system.payment.views.land.as_view" />
+          <option value="online_course_system.payment.views.cancel.as_view" />
+          <option value="online_course_system.payment.views.success.as_view" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

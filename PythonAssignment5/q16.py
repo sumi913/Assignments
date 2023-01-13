@@ -1,4 +1,5 @@
-# 16. Take inputs from user to make a list. Again take one input from user and search it in the list and delete that element, if found. Iterate over list using for loop.
+# 16. Take inputs from user to make a list. Again take one input from user and search it in the list and
+# delete that element, if found. Iterate over list using for loop.
 
 numbers = []
 x = int(input("Enter number of elements in list"))

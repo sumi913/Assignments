@@ -9,6 +9,6 @@
 # 88888888
 # 999999999
 
-n=10;
+n=10
 for i in range(n):
         print(str(i) *i)

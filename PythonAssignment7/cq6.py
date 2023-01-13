@@ -17,4 +17,4 @@ class power:
         if n%2 ==0:
             return val*val
         return val*val*x
-print(power().pow(3, 5));
+print(power().pow(3, 5))

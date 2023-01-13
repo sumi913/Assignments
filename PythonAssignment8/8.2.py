@@ -39,7 +39,6 @@ def extract_file():
         list=[]
         for line in file:
             for words in line.split():
-                # print(words)
                 list.append(words)
     return list
 def select_randomly():
