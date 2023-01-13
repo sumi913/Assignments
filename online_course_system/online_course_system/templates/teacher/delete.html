@@ -160,7 +160,7 @@
                   {% for tcourse in tcourse reversed %}
         <div class="col-sm-4">
             <div class="card my-4 mx-3 shadow-lg p-3 mb-5 bg-white rounded" style="width: 18rem;">
-                <img src="{{ tcourse.thumbnail_url }}" class="card-img-top" alt="Course Thumbnail" height="150">
+                <img src="{{ tcourse.course.thumbnail_url }}" class="card-img-top" alt="Course Thumbnail" height="150">
                 <div class="card-body">
                     <h5 class="card-title">{{ tcourse.course.title }}</h5>
                 </div>
@@ -182,8 +182,8 @@
          </div>
 
 
-    <canvas class="my-3 w-80 chartjs-render-monitor" id="myChart" width="1080" height="350"
-                style="display: block; width: 1080px; height: 350px;"></canvas>
+<!--    <canvas class="my-3 w-80 chartjs-render-monitor" id="myChart" width="1080" height="350"-->
+<!--                style="display: block; width: 1080px; height: 350px;"></canvas>-->
   </div>
     </div>
       </div>

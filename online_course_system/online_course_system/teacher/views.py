@@ -50,15 +50,15 @@ def AddedCourse(request):
     return redirect("teacher/index.html")
 
 
-def added_content(request):
-    if request.user.is_authenticated == True:
-        user1 = TeacherInfo.objects.filter(user=request.user).first()
-        tcourse = CourseAdded.objects.filter(teacher=user1)
-        contest = {
-            "tcourse" : tcourse,
-        }
-        return render(request, "teacher/course_list.html", contest)
-    return redirect("teacher/index.html")
+# def added_content(request):
+#     if request.user.is_authenticated == True:
+#         user1 = TeacherInfo.objects.filter(user=request.user).first()
+#         tcourse = CourseAdded.objects.filter(teacher=user1)
+#         contest = {
+#             "tcourse": tcourse,
+#         }
+#         return render(request, "teacher/course_list.html", contest)
+#     return redirect("teacher/index.html")
 
 
 def update_course(request):
@@ -124,7 +124,7 @@ def delete_course1(request, course_id):
     except Course.DoesNotExist:
         return redirect('index')
     course.delete()
-    return render(request, 'teacher/delete.html')
+    return redirect('delete')
 
 
 def search_value(request):
