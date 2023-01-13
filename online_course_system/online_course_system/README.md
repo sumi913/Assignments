@@ -1,4 +1,4 @@
-# EmailAuth
+<!-- # EmailAuth
 
 Email Auth is an OTP authentication module for Django built with Tailwind CSS.
 
@@ -12,3 +12,4 @@ Email Auth is an OTP authentication module for Django built with Tailwind CSS.
 
 ### OTP Page 
 ![OTP Page](https://github.com/aritra1999/EmailAuth/blob/master/demo/otp.png)
+ -->
